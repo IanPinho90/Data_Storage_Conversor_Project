@@ -1,6 +1,6 @@
 from Calculadora_Unidades_Armazenamento import converterStringParaFloat, bitParaByte, byteParaBit, kilobyteParaByte, byteParaKilobyte, MBParaKB, KBParaMB, GBParaMB, MBParaGB, TBParaGB, GBParaTB, PBParaTB, TBParaPB
 
-print(' -Escreva 1 para bit para byte \n -Escreva 2 para byte para bit \n -Escreva 3 para KB para B \n -Escreva 4 para B para KB \n -Escreva 5 para MB para KB \n -Escreva 6 para KB para MB')
+print(' -Escreva 1 para bit para byte \n -Escreva 2 para byte para bit \n -Escreva 3 para KB para B \n -Escreva 4 para B para KB \n -Escreva 5 para MB para KB \n -Escreva 6 para KB para MB \n -Escreva 7 para GB para MB \n -Escreva 8 para MB para GB \n -Escreva 9 para TB para GB \n -Escreva 10 para GB para TB \n -Escreva 11 para PB para TB \n -Escreva 12 para TB para PB')
 funcEscolha = input()
 if(funcEscolha == '1'):
     print('vc escolheu 1, indique o valor a ser convertido:')
