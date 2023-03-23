@@ -88,18 +88,3 @@ def TBParaPB(valorASerConvertido):
     PBCalculado = valorASerConvertido / ValorComumByte
     print(PBCalculado)
     return PBCalculado
-
-print('Insira o valor a ser convertido')
-entradaDoTecladoValorASerConvertido  = converterStringParaFloat(input())
-byteParaBit(entradaDoTecladoValorASerConvertido)
-bitParaByte(entradaDoTecladoValorASerConvertido)
-kilobyteParaByte(entradaDoTecladoValorASerConvertido)
-byteParaKilobyte(entradaDoTecladoValorASerConvertido)
-MBParaKB(entradaDoTecladoValorASerConvertido)
-KBParaMB(entradaDoTecladoValorASerConvertido)
-GBParaMB(entradaDoTecladoValorASerConvertido)
-MBParaGB(entradaDoTecladoValorASerConvertido)
-TBParaGB(entradaDoTecladoValorASerConvertido)
-GBParaTB(entradaDoTecladoValorASerConvertido)
-PBParaTB(entradaDoTecladoValorASerConvertido)
-TBParaPB(entradaDoTecladoValorASerConvertido)
