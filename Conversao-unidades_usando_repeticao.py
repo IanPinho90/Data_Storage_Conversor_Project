@@ -14,15 +14,6 @@ def Conversor (valorAConverter,unidadeConvertida,unidadeDesejada,):
     if unidadeConvertida=='bit':
         valorFinal=valorFinal/8
         unidadeConvertida='byte'
-    if unidades.index(unidadeConvertida)<unidades.index(unidadeDesejada):
-        for distancia in range(unidades.index(unidadeConvertida),unidades.index(unidadeDesejada)):
-            valorFinal=valorFinal/1024
-    else:
-        for distancia in range(unidades.index(unidadeConvertida),unidades.index(unidadeDesejada),-1):
-            valorFinal=valorFinal*1024
-        if unidadeDesejada=='bit':
-            valorFinal=(valorFinal/1024)*8
-        
     print(valorFinal)
 Conversor(valorAConverter,unidadeConvertida,unidadeDesejada)
 
